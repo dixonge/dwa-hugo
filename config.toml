@@ -1,0 +1,76 @@
+baseurl         = "https://dixonwildlifeart.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+canonifyurls    = true
+summaryLength   = 25
+NewContentEditor = "code"
+
+[params]
+  title       = "Dixon Wildlife Art"
+  subtitle    = "by Philip Dixon"
+  copyright   = "© 2019 Philip Dixon"
+
+  cover       = "deer-header.jpg"
+#  description = "Here is a description of your site."
+  metaDescription = ""
+#  googleAnalytics = ""
+  customCSS = ["custom.css"]
+  RSSLink = ""
+
+#  twitterName = "coyotejano"
+#  fbName = "fakeghost"
+#  instagramName = "dixonge"
+#  linkedinName = "eueung"
+
+#  logo = "hugo-logo.png"
+#  orgName = ""
+#  orgWebsite = ""
+#  orgDescription = ""
+
+  showSupport = true
+
+  author = "Philip Dixon"
+#  authorAvatar = "avatar.jpg"
+  authorLocation = "Fort Worth, Texas"
+  authorWebsite = "https://dixonwildlifeart.com"
+#  authorDescription = ""
+
+  pageNotFoundTitle = "Oops! That page doesn't exist (404 error)"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/post/:slug/"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  blog = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Art"
+  url = "/art/"
+  weight = 199
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 195
+  
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 193
+
+[[menu.main]]
+  name = "News"
+  url = "/posts/"
+  weight = 190
