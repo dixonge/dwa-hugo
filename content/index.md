@@ -2,16 +2,7 @@
 author: dixongexpat
 type: page
 date: 2016-08-30T19:54:46+00:00
-excerpt: "This is the home page's excerpt"
-geo_public:
-  - 0
-  - 0
-sharing_disabled:
-  - 1
-  - 1
-switch_like_status:
-  - 1
-  - 1
+image: image.jpeg
 
 ---
 Thank you for visiting. Please enjoy looking around. I hope you find something you love.

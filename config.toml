@@ -14,7 +14,7 @@ NewContentEditor = "code"
   subtitle    = "by Philip Dixon"
   copyright   = "© 2019 Philip Dixon"
 
-  cover       = "deer-header.jpg"
+  cover       = "deer-header-big.jpg"
 #  description = "Here is a description of your site."
   metaDescription = ""
 #  googleAnalytics = ""

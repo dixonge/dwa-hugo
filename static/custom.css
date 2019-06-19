@@ -1,3 +1,8 @@
+.site-header {
+    background-position: top;
+    background-size: contain;
+}
+
 img.theartist {
     float: right;
     margin-left: 10px;
@@ -6,6 +11,7 @@ img.theartist {
 .aboutpics, .art-categories {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
 }
 
