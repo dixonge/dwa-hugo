@@ -1,9 +1,8 @@
 ---
 title: Art
-author: "Philip Dixon"
+author: Philip Dixon
 type: page
 date: 2016-08-31T19:54:45+00:00
-image: image.jpeg
 
 ---
 

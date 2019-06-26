@@ -1,5 +1,5 @@
-# baseurl         = "https://dixonwildlifeart.com"
-baseurl         = "https://peaceful-mcclintock-911046.netlify.com/"
+baseurl         = "https://dixonwildlifeart.com"
+# baseurl         = "https://peaceful-mcclintock-911046.netlify.com/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
