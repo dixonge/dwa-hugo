@@ -1,19 +1,19 @@
 {{ partial "head" . }}
 
-<!-- {{if ne .Site.Params.singleViewStyle "casper"}}<body class="ctsingle">
-{{else}} -->
-><body class="post-template">
-  <!-- {{end}} -->
+ {{if ne .Site.Params.singleViewStyle "casper"}}<body class="ctsingle">
+{{else}} 
+<body class="post-template">
+   {{end}}
   <div class="site-wrapper"> 
 
-<!-- {{if ne .Site.Params.singleViewStyle "casper"}}{{ partial "header" . }}
-{{else}} -->
+{{if ne .Site.Params.singleViewStyle "casper"}}{{ partial "header" . }}
+{{else}}
 {{ partial "header-sori" . }}
-<!-- {{end}} -->
+{{end}}
 
 <main id="site-main" class="site-main outer" role="main">
   <div class="inner">
-<!-- {{if ne .Site.Params.singleViewStyle "casper"}}
+{{if ne .Site.Params.singleViewStyle "casper"}}
     <div class="post-feed">
       {{ partial "post-single" . }}
     </div>
@@ -28,9 +28,9 @@
       {{end}}
     </nav>
 
-    {{else}} -->
+    {{else}}
       {{ partial "post-single-sori" . }}
-<!--    {{end}} -->
+    {{end}}
     
     {{ partial "disqus" . }}
   </div>
