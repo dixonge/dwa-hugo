@@ -8,6 +8,7 @@
   <div class="inner">
 	  {{ range where .Data.Pages "Type" "homepage" }}
 	  {{ .Content }}
+	  {{ end }}
 <!--
     <div class="post-feed">
       {{ partial "post-list" . }}
