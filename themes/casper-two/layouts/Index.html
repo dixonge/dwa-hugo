@@ -1,5 +1,30 @@
-{{ range where .Data.Pages "Type" "homepage" }}
-<main role="main">
-	{{ .Content }}
+{{ partial "head" . }}
+
+<body class="home-template"><div class="site-wrapper">
+
+{{ partial "header" . }}
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+	  {{ range where .Data.Pages "Type" "homepage" }}
+	  {{ .Content }}
+<!--
+    <div class="post-feed">
+      {{ partial "post-list" . }}
+    </div>
+
+    <nav class="pagination" role="navigation">
+      {{if .Paginator.HasPrev}}
+          <a class="newer-posts" href="{{ .Paginator.Prev.URL }}">&larr; <span class="hide">Next Posts</span></a>
+      {{end}}
+      <span class="page-number"><span class="hide">Page {{ .Paginator.PageNumber }} of {{.Paginator.TotalPages}}</span>&nbsp;</span>
+      {{if .Paginator.HasNext}}
+          <a class="older-posts" href="{{ .Paginator.Next.URL }}"><span class="hide">Previous Posts</span> &rarr;</a>
+      {{end}}
+    </nav> -->
+	  
+  </div>
 </main>
-{{ end }}
+
+{{ partial "footer" . }}
+</div>{{ partial "js" . }}</body></html>
