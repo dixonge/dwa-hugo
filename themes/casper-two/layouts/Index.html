@@ -3,12 +3,10 @@
 <body class="home-template"><div class="site-wrapper">
 
 {{ partial "header" . }}
-
+{{ range where .Data.Pages "Type" "homepage" }}
 <main id="site-main" class="site-main outer" role="main">
   <div class="inner">
-	  {{ range where .Data.Pages "Type" "homepage" }}
 	  {{ .Content }}
-	  {{ end }}
 <!--
     <div class="post-feed">
       {{ partial "post-list" . }}
@@ -25,7 +23,8 @@
     </nav> -->
 	  
   </div>
-</main>
+	</main>
+	{{ end }}
 
 {{ partial "footer" . }}
 </div>{{ partial "js" . }}</body></html>
