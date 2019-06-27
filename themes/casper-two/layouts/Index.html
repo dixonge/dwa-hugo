@@ -1,4 +1,5 @@
 {{ define "main" }}
+{{ range where .Data.Pages "Type" "homepage" }}
 <main role="main">
 	{{ .Content }}
 </main>
