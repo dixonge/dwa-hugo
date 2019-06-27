@@ -1,6 +1,15 @@
 .site-header {
-    background-position: top;
+    background-position: left;
     background-size: contain;
+}
+
+.site-nav {
+    display: block;
+    overflow-y: visible;
+}
+
+.site-nav-left {
+    float: right;
 }
 
 img.theartist {
