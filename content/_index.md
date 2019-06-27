@@ -4,6 +4,8 @@ type: page
 date: 2016-08-30T19:54:46+00:00
 
 ---
+## Welcome
+
 Thank you for visiting. Please enjoy looking around. I hope you find something you love.
 
 All of the art you will find here is original. Each oil painting is one-of-a-kind. I have a selection of canvas art but specialize in painting on wild turkey feathers.

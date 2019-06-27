@@ -19,6 +19,10 @@ img.theartist {
     width: 98%;
 }
 
+.art-categories a {
+    width: 32%;
+}
+
 div.gallery {
     display: flex;
     flex-wrap: wrap;
@@ -35,3 +39,14 @@ div.gallery a img {
     object-fit: cover;
     flex-grow: 1;
 }
+
+@media (min-width: 900px) {
+    .home-template .site-nav {
+        top: 0px;
+    }
+    
+    .home-template .post-feed {
+        margin-top: 0;
+    }
+}
+    
