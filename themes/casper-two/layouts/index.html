@@ -3,11 +3,9 @@
 <body class="home-template"><div class="site-wrapper">
 
 {{ partial "header" . }}
-{{ range where .Data.Pages "Type" "homepage" }}
+
 <main id="site-main" class="site-main outer" role="main">
   <div class="inner">
-	  {{ .Content }}
-<!--
     <div class="post-feed">
       {{ partial "post-list" . }}
     </div>
@@ -20,11 +18,10 @@
       {{if .Paginator.HasNext}}
           <a class="older-posts" href="{{ .Paginator.Next.URL }}"><span class="hide">Previous Posts</span> &rarr;</a>
       {{end}}
-    </nav> -->
+    </nav>
 	  
   </div>
 	</main>
-	{{ end }}
 
 {{ partial "footer" . }}
 </div>{{ partial "js" . }}</body></html>
