@@ -1,6 +1,6 @@
 ---
 author: Philip Dixon
-type: homepage
+type: page
 date: 2016-08-30T19:54:46+00:00
 
 ---
